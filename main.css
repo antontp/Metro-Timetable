@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: consolas;
+    color: white;
+    background-image: radial-gradient(DarkSlateGray, LightSlateGray);
+    margin: 0;
+    padding: 10px;
+}
+
+#metros {
+    display: block;
+    height: 100%;
+    /* border: 10px solid;
+    border-top-color: grey;
+    border-image: linear-gradient(
+        to bottom, 
+        darkgrey, 
+        rgba(0, 0, 0, 0)
+    )
+    1 100%; */
+}
+
+div.metro {
+    height: 125px;
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    /* margin: 10px; */
+    padding: 10px;
+    position: relative;
+    
+    background-image: linear-gradient(lightgrey,white);
+}
+
+.destinationText {
+    font: 35px consolas;
+    margin: 20px;
+    position: absolute;
+    left: 33%;
+}
+
+#etaDiv {
+    position: absolute;
+    right: 5%;
+    font: 40px consolas;
+    display: block;
+}
+
+#etaIndication {
+    position: absolute;
+    width: 100%;
+    height: 7px;
+}
+
+.etaIndicateGood {
+    background-image: linear-gradient(lightgreen,green);
+}
+.etaIndicateMedium {
+    background-image: linear-gradient(orange, yellow);
+}
+.etaIndicateRush {
+    background-image: linear-gradient(red, IndianRed);
+}
+
+/* Line nr circle */
+.bergkrystallen {
+    background-color: darkblue;
+    color: darkblue;
+}
+
+.frognerseteren {
+    background-color: lightblue;
+    color: lightblue;
+}
+
+.circle {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 40px;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    left: 1%;
+}
+
+.lineNr {
+    color: white;
+    font: 100px Copperplate sans-serif;
+    position: relative;
+    font-weight: bold;
+    top: -10px;
+}
+
+
+
