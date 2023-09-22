@@ -1,3 +1,2 @@
 # Metro-Timetable
-
-Work-in-progress, sanntid tidstabell for Manglerud t-banestasjon. 
+Sanntid tidstabell for Manglerud t-banestasjon. 
